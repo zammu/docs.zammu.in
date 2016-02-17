@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Welcome to Zammu's Documentation
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Zammu helps you setup Automatic and Continuous Deployment for your site very
+easily
 
-## Commands
+Browse the documentation from the sidebar on the left.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+The general flow of Zammu is depicted in the flow chart below.
 
-## Project layout
+## Flow chart
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![Zammu Flow Chart](/images/zammu-flow.png)
