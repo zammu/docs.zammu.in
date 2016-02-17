@@ -1,11 +1,4 @@
-title: How to Deploy a Hugo Site on Github using Zammu
-date: 2016-01-12 17:13:45
-tags:
-- hugo
-- help
-- how-to
-- github-pages
----
+# How to Deploy a Hugo Site on Github using Zammu
 
 You can now setup your zammu sites to build using the [Hugo]() static site generator.
 
@@ -13,12 +6,11 @@ You can now setup your zammu sites to build using the [Hugo]() static site gener
 very accessible. In this short post I'll show you how to get your Hugo website
 built on Github automatically for each git push.
 
- 1. Sign up for [https://zammu.in/](https://zammu.in/?invitation_code=GOHUGO16) using the invitation code `GOHUGO16`.
- 2. Link up your Github Profile from zammu.in's home page after signing in.
- 3. Create a new site using the "Github => Hugo => Github" recipe and enter the
+ 1. Sign up for [https://zammu.in/](https://zammu.in/).
+ 2. Create a new site using the "Hugo" generator and enter the
      github url of your hugo website e.g. *zammu/hugo.zammu.in* with the other
      details.
- 4. That's it. Now you whenever you push to your github repository, your website
+ 3. That's it. Now you whenever you push to your github repository, your website
     built using Hugo will be published to the subdomain.zammu.in
 
 - - -
@@ -54,7 +46,7 @@ git remote add origin git@github.com:minhajuddin/awesome-hugo-blog
 git push origin master -u
 
 # now we need to go to https://zammu.in/ and create a new site with the following  info
-# Recipe = Github => Hugo => Github
+# Generator = Hugo
 # Title = My awesome Blog
 # Domain =
 # Subdomain = awesomehugo

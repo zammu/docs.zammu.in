@@ -1,14 +1,6 @@
-title: How to setup a Middleman Blog on Github Pages with one click
-date: 2016-02-05 11:43:08
-tags:
-- Zammu
-- Middleman
-- Casper
-- Ghost
----
+# How to setup a Middleman Blog on Github Pages with one click
 
-## Quick start
-Go here and follow the UI: https://zammu.in/themes/danielbayerlein:middleman-casper?invitation_code=THEME
+Go here and follow the UI: https://zammu.in/themes/danielbayerlein:middleman-casper
 
 We have been trying to find ways to make using Middleman as frictionless as possible.
 We'd love to hear the feedback from the community if there are other things we can improve.
@@ -17,4 +9,4 @@ more approachable.
 
 Here is a video of me setting up my Resume using [another theme avaiable on Zammu](https://zammu.in/themes/reefab:resumeman).
 
-{% youtube eIlQk42oNko %}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eIlQk42oNko?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

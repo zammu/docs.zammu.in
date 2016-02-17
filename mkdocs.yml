@@ -1,18 +1,21 @@
 site_name: Zammu Documentation
 theme: readthedocs
+markdown_extensions: [fenced_code]
+repo_url: https://github.com/zammu/docs.zammu.in/
+site_description: Home of Zammu's Documentation, the continuous delivery platform for static sites.
+site_author: Khaja Minhajuddin
+site_favicon: favicon.ico
+google_analytics: ['UA-72393916-1', 'docs.zammu.in']
+copyright: '&copy; 2015-2016 https://zammu.in/ Cosmicvent Software Pvt Ltd'
 pages:
 - Home: 'index.md'
-- How to Static Site Generators:
+- How to Setup:
   - Hexo: 'hexo.md'
   - Hugo: 'hugo.md'
-  - Octopress: 'hugo.md'
-  - Octopress: 'hugo.md'
-  - 'Bundler + Ruby': 'bundler-and-ruby.md'
-#- build-your-own-static-site-generator-using-ruby.md
-#- how-to-configure-your-blog-for-hourly-or-daily-deployment.md
-#- 
-#- how-to-deploy-a-middleman-website-on-github-pages-using-zammu.md
-#- how-to-setup-a-middleman-blog-on-github-pages-with-one-click.md
-#- how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu.md
-#- how-to-setup-automatic-build-and-deploy-for-an-octopress-blog-on-github-pages-using-zammu.md
-#- trigger-your-deploys-using-our-brand-new-api.md
+  - Middleman: 'middleman.md'
+  - Octopress: 'octopress.md'
+  - Jekyll: 'jekyll.md'
+  - 'Bundler and Ruby': 'bundle_and_ruby.md'
+- Themes: 'themes.md'
+- Scheduled/Recurring/cron deploys: 'scheduled_deploys.md'
+- API: 'api.md'
