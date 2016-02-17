@@ -1,2 +1,18 @@
 site_name: Zammu Documentation
 theme: readthedocs
+pages:
+- Home: 'index.md'
+- How to Static Site Generators:
+  - Hexo: 'hexo.md'
+  - Hugo: 'hugo.md'
+  - Octopress: 'hugo.md'
+  - Octopress: 'hugo.md'
+  - 'Bundler + Ruby': 'bundler-and-ruby.md'
+#- build-your-own-static-site-generator-using-ruby.md
+#- how-to-configure-your-blog-for-hourly-or-daily-deployment.md
+#- 
+#- how-to-deploy-a-middleman-website-on-github-pages-using-zammu.md
+#- how-to-setup-a-middleman-blog-on-github-pages-with-one-click.md
+#- how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu.md
+#- how-to-setup-automatic-build-and-deploy-for-an-octopress-blog-on-github-pages-using-zammu.md
+#- trigger-your-deploys-using-our-brand-new-api.md
