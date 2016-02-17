@@ -1,5 +1,5 @@
 baseurl = "http://docs.zammu.in"
 languageCode = "en-us"
 title = "Zammu Documentation"
-theme = "bootie-docs"
+theme = "readthedocs"
 description = "This is a website where the documentation for https://zammu.in will be hosted."

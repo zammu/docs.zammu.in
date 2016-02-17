@@ -1,3 +1,6 @@
 [submodule "themes/bootie-docs"]
 	path = themes/bootie-docs
 	url = https://github.com/key-amb/hugo-theme-bootie-docs
+[submodule "themes/readthedocs"]
+	path = themes/readthedocs
+	url = https://github.com/digitalcraftsman/hugo-read-the-docs
