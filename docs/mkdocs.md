@@ -11,4 +11,4 @@ We'll setup the awesome [MkDocs](http://www.mkdocs.org) documentation generator 
         ```
 
 That's it you are all set for Continuous Delivery of your documentation site. The icing on the cake is that **others can now contribute to your documentation project via GitHub**.
-e.g. You can try out contributions by creating a pull request on this very documentation site (Yes, it is built using MkDocs :) ). Just click on the 'Edit on GitHub' button in the top left corner.
+e.g. You can try out contributions by creating a pull request on this very documentation site (Yes, it is built using MkDocs :) ). Just click on the 'Edit on GitHub' button in the top right corner.
