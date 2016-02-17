@@ -1,15 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://docs.zammu.in/</loc>
-    <lastmod>2016-01-13T19:32:55+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://docs.zammu.in/how-to-setup-hugo-using-github-pages/</loc>
-    <lastmod>2016-01-13T19:32:55+05:30</lastmod>
-  </url>
-  
+
+    
+    <url>
+     <loc>None/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>None/hexo/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/hugo/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/middleman/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/octopress/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/jekyll/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/bundle_and_ruby/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>None/themes/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/scheduled_deploys/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/api/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
 </urlset>

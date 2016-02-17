@@ -1,0 +1,139 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Zammu's Documentation\n\n\nZammu helps you setup Automatic and Continuous Deployment for your site very\neasily\n\n\nBrowse the documentation from the sidebar on the left.\n\n\nThe general flow of Zammu is depicted in the flow chart below.\n\n\nFlow chart", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-zammus-documentation", 
+            "text": "Zammu helps you setup Automatic and Continuous Deployment for your site very\neasily  Browse the documentation from the sidebar on the left.  The general flow of Zammu is depicted in the flow chart below.", 
+            "title": "Welcome to Zammu's Documentation"
+        }, 
+        {
+            "location": "/#flow-chart", 
+            "text": "", 
+            "title": "Flow chart"
+        }, 
+        {
+            "location": "/hexo/", 
+            "text": "How to deploy a Hexo website\n\n\nYou can now setup your Zammu websites to be built using the awesome \nHexo\n static site generator now.\n\n\nIn this short post I'll show you how to get your Hexo website built on GitHub Pages automatically for each git push using \nZammu\n.\n\n\n\n\nSign up for \nzammu.in\n using GitHub.\n\n\nCreate a new site using the \"Hexo\" generator and enter the github url of your hexo website e.g. \nzammu/hexo.zammu.in\n with the other details.\n\n\nThat's it. Now you whenever you push to your github repository, your website will be built using Hexo and will be published to GitHub Pages on subdomain.zammu.in\n\n\n\n\n\n\nHere are some commands used to setup your repository\n\n\n# init the new site\nhexo init awesome-hexo-blog\n\n# init the repo\ncd awesome-hexo-blog\ngit init\ngit commit -m 'init'\n\n# now we need to go to github and create our repository and then\ngit remote add origin git@github.com:minhajuddin/awesome-hexo-blog\ngit push origin master -u\n\n# now we need to go to https://zammu.in and create a new site with the following  info\n# Generator = Hexo\n# Title = My awesome Blog\n# Domain =\n# Subdomain = awesomehexo\n# GitHub URL = minhajuddin/awesome-hexo-blog\n\necho \nThat's it we are done", 
+            "title": "Hexo"
+        }, 
+        {
+            "location": "/hexo/#how-to-deploy-a-hexo-website", 
+            "text": "You can now setup your Zammu websites to be built using the awesome  Hexo  static site generator now.  In this short post I'll show you how to get your Hexo website built on GitHub Pages automatically for each git push using  Zammu .   Sign up for  zammu.in  using GitHub.  Create a new site using the \"Hexo\" generator and enter the github url of your hexo website e.g.  zammu/hexo.zammu.in  with the other details.  That's it. Now you whenever you push to your github repository, your website will be built using Hexo and will be published to GitHub Pages on subdomain.zammu.in    Here are some commands used to setup your repository  # init the new site\nhexo init awesome-hexo-blog\n\n# init the repo\ncd awesome-hexo-blog\ngit init\ngit commit -m 'init'\n\n# now we need to go to github and create our repository and then\ngit remote add origin git@github.com:minhajuddin/awesome-hexo-blog\ngit push origin master -u\n\n# now we need to go to https://zammu.in and create a new site with the following  info\n# Generator = Hexo\n# Title = My awesome Blog\n# Domain =\n# Subdomain = awesomehexo\n# GitHub URL = minhajuddin/awesome-hexo-blog\n\necho  That's it we are done", 
+            "title": "How to deploy a Hexo website"
+        }, 
+        {
+            "location": "/hugo/", 
+            "text": "How to Deploy a Hugo Site on Github using Zammu\n\n\nYou can now setup your zammu sites to build using the \nHugo\n static site generator.\n\n\nHugo\n is a really fast static site generator. However, it is not\nvery accessible. In this short post I'll show you how to get your Hugo website\nbuilt on Github automatically for each git push.\n\n\n\n\nSign up for \nhttps://zammu.in/\n.\n\n\nCreate a new site using the \"Hugo\" generator and enter the\n     github url of your hugo website e.g. \nzammu/hugo.zammu.in\n with the other\n     details.\n\n\nThat's it. Now you whenever you push to your github repository, your website\n    built using Hugo will be published to the subdomain.zammu.in\n\n\n\n\n\n\nHere is a script which can be used to setup your repository\n\n\n# init the new site\nhugo new site awesome-hugo-blog\n\n# init the repo\ncd awesome-hugo-blog\ngit init\ngit commit -m 'init'\n\n# setup the theme\ngit submodule add https://github.com/htdvisser/hugo-base16-theme themes/base16\n# it is VERY important that you add it as a submodule and not just clone it\n\n# commit the theme\ngit commit -m 'added theme'\n\n# update the config\nvim config.toml\ntitle = \nMy very awesome blog\n\ntheme = \nbase16\n\n:exit\n\ngit commit -m 'updated config'\n\n# now we need to go to github and create our repository and then\ngit remote add origin git@github.com:minhajuddin/awesome-hugo-blog\ngit push origin master -u\n\n# now we need to go to https://zammu.in/ and create a new site with the following  info\n# Generator = Hugo\n# Title = My awesome Blog\n# Domain =\n# Subdomain = awesomehugo\n# Github URL = minhajuddin/awesome-hugo-blog\n\necho \nThat's it we are done", 
+            "title": "Hugo"
+        }, 
+        {
+            "location": "/hugo/#how-to-deploy-a-hugo-site-on-github-using-zammu", 
+            "text": "You can now setup your zammu sites to build using the  Hugo  static site generator.  Hugo  is a really fast static site generator. However, it is not\nvery accessible. In this short post I'll show you how to get your Hugo website\nbuilt on Github automatically for each git push.   Sign up for  https://zammu.in/ .  Create a new site using the \"Hugo\" generator and enter the\n     github url of your hugo website e.g.  zammu/hugo.zammu.in  with the other\n     details.  That's it. Now you whenever you push to your github repository, your website\n    built using Hugo will be published to the subdomain.zammu.in", 
+            "title": "How to Deploy a Hugo Site on Github using Zammu"
+        }, 
+        {
+            "location": "/hugo/#here-is-a-script-which-can-be-used-to-setup-your-repository", 
+            "text": "# init the new site\nhugo new site awesome-hugo-blog\n\n# init the repo\ncd awesome-hugo-blog\ngit init\ngit commit -m 'init'\n\n# setup the theme\ngit submodule add https://github.com/htdvisser/hugo-base16-theme themes/base16\n# it is VERY important that you add it as a submodule and not just clone it\n\n# commit the theme\ngit commit -m 'added theme'\n\n# update the config\nvim config.toml\ntitle =  My very awesome blog \ntheme =  base16 \n:exit\n\ngit commit -m 'updated config'\n\n# now we need to go to github and create our repository and then\ngit remote add origin git@github.com:minhajuddin/awesome-hugo-blog\ngit push origin master -u\n\n# now we need to go to https://zammu.in/ and create a new site with the following  info\n# Generator = Hugo\n# Title = My awesome Blog\n# Domain =\n# Subdomain = awesomehugo\n# Github URL = minhajuddin/awesome-hugo-blog\n\necho  That's it we are done", 
+            "title": "Here is a script which can be used to setup your repository"
+        }, 
+        {
+            "location": "/middleman/", 
+            "text": "How to deploy a Middleman website on Github pages using Zammu\n\n\nNow you can deploy \nMiddleman\n websites on \nGithub Pages\n.\n\n\n\n\nClick on the \nNew Site\n button\n\n\nSelect the \nMiddleman\n generator\n\n\nEnter the Title, Subdomain and the Github url \nzammu/middleman.zammu.in\n and click \nCreate Site\n.\n\n\n\n\nThat's it, now when you push code to your Github repository.", 
+            "title": "Middleman"
+        }, 
+        {
+            "location": "/middleman/#how-to-deploy-a-middleman-website-on-github-pages-using-zammu", 
+            "text": "Now you can deploy  Middleman  websites on  Github Pages .   Click on the  New Site  button  Select the  Middleman  generator  Enter the Title, Subdomain and the Github url  zammu/middleman.zammu.in  and click  Create Site .   That's it, now when you push code to your Github repository.", 
+            "title": "How to deploy a Middleman website on Github pages using Zammu"
+        }, 
+        {
+            "location": "/octopress/", 
+            "text": "How to setup Automatic build and Deploy for an Octopress blog on Github Pages using Zammu\n\n\n\n\nFork the zammu/octopress.zammu.in repository from Github\n\n\nDelete the post \nsource/_posts/2016-01-26-automatic-deployment-of-octopress-on-github-pages-using-zammu.markdown\n\n\nUpdate the config with your information\n\n\nCreate a new site in htts://zammu.in using the \nOctopress\n static site generator.\n\n\n\n\nThat's it. Now you can start creating new posts in the \nsource/_posts/directory", 
+            "title": "Octopress"
+        }, 
+        {
+            "location": "/octopress/#how-to-setup-automatic-build-and-deploy-for-an-octopress-blog-on-github-pages-using-zammu", 
+            "text": "Fork the zammu/octopress.zammu.in repository from Github  Delete the post  source/_posts/2016-01-26-automatic-deployment-of-octopress-on-github-pages-using-zammu.markdown  Update the config with your information  Create a new site in htts://zammu.in using the  Octopress  static site generator.   That's it. Now you can start creating new posts in the  source/_posts/directory", 
+            "title": "How to setup Automatic build and Deploy for an Octopress blog on Github Pages using Zammu"
+        }, 
+        {
+            "location": "/jekyll/", 
+            "text": "How to setup automatic build and deploy for a jekyll blog on github pages using zammu\n\n\nIn this blog post I'll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.\n\n\nSetup Jekyll and add a Gemfile\n\n\ngem install jekyll\njekyll new my-awesome-blog\n\n\n\n\nSetup a Gemfile. This step is very important.\n\n\necho 'source \nhttps://rubygems.org\n' \n Gemfile\necho 'gem \njekyll\n' \n Gemfile\n\n\n\n\nOnce you are done with this step you should have a Gemfile with the following content:\n\n\nsource \nhttps://rubygems.org\n\ngem \njekyll\n\n\n\n\n\nPush it to a Github Repository.\n\n\nLog in to https://zammu.in and create a new site using the \"Jekyll\" generator\n\n\nThat's it. Now you can start creating new posting just by adding content and pushing to Github.", 
+            "title": "Jekyll"
+        }, 
+        {
+            "location": "/jekyll/#how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu", 
+            "text": "In this blog post I'll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.", 
+            "title": "How to setup automatic build and deploy for a jekyll blog on github pages using zammu"
+        }, 
+        {
+            "location": "/jekyll/#setup-jekyll-and-add-a-gemfile", 
+            "text": "gem install jekyll\njekyll new my-awesome-blog", 
+            "title": "Setup Jekyll and add a Gemfile"
+        }, 
+        {
+            "location": "/jekyll/#setup-a-gemfile-this-step-is-very-important", 
+            "text": "echo 'source  https://rubygems.org '   Gemfile\necho 'gem  jekyll '   Gemfile", 
+            "title": "Setup a Gemfile. This step is very important."
+        }, 
+        {
+            "location": "/jekyll/#once-you-are-done-with-this-step-you-should-have-a-gemfile-with-the-following-content", 
+            "text": "source  https://rubygems.org \ngem  jekyll", 
+            "title": "Once you are done with this step you should have a Gemfile with the following content:"
+        }, 
+        {
+            "location": "/jekyll/#push-it-to-a-github-repository", 
+            "text": "", 
+            "title": "Push it to a Github Repository."
+        }, 
+        {
+            "location": "/jekyll/#log-in-to-httpszammuin-and-create-a-new-site-using-the-jekyll-generator", 
+            "text": "That's it. Now you can start creating new posting just by adding content and pushing to Github.", 
+            "title": "Log in to https://zammu.in and create a new site using the \"Jekyll\" generator"
+        }, 
+        {
+            "location": "/bundle_and_ruby/", 
+            "text": "Build your own static site generator using Ruby\n\n\nZammu now has the ability to support any Ruby based static site generator. You\ncan now select the 'Bundle and Ruby' in the first step, and fill out the build\ncommand and the output directory in the second step to configure it.\n\n\nIn the following example I am using nanoc to build my websites.\n\n\n\n\n\n\nHappy building :)\n\n\nP.S: I built a small TIL builder to collaborate on TILs among small teams, check\nit out here: http://til.zammu.in/ The source for this repository is at: https://github.com/minhajuddin/til", 
+            "title": "Bundler and Ruby"
+        }, 
+        {
+            "location": "/bundle_and_ruby/#build-your-own-static-site-generator-using-ruby", 
+            "text": "Zammu now has the ability to support any Ruby based static site generator. You\ncan now select the 'Bundle and Ruby' in the first step, and fill out the build\ncommand and the output directory in the second step to configure it.  In the following example I am using nanoc to build my websites.    Happy building :)  P.S: I built a small TIL builder to collaborate on TILs among small teams, check\nit out here: http://til.zammu.in/ The source for this repository is at: https://github.com/minhajuddin/til", 
+            "title": "Build your own static site generator using Ruby"
+        }, 
+        {
+            "location": "/themes/", 
+            "text": "How to setup a Middleman Blog on Github Pages with one click\n\n\nGo here and follow the UI: https://zammu.in/themes/danielbayerlein:middleman-casper\n\n\nWe have been trying to find ways to make using Middleman as frictionless as possible.\nWe'd love to hear the feedback from the community if there are other things we can improve.\nWe plan on adding more such themes using other static site generators which should make static site generators\nmore approachable.\n\n\nHere is a video of me setting up my Resume using \nanother theme avaiable on Zammu\n.", 
+            "title": "Themes"
+        }, 
+        {
+            "location": "/themes/#how-to-setup-a-middleman-blog-on-github-pages-with-one-click", 
+            "text": "Go here and follow the UI: https://zammu.in/themes/danielbayerlein:middleman-casper  We have been trying to find ways to make using Middleman as frictionless as possible.\nWe'd love to hear the feedback from the community if there are other things we can improve.\nWe plan on adding more such themes using other static site generators which should make static site generators\nmore approachable.  Here is a video of me setting up my Resume using  another theme avaiable on Zammu .", 
+            "title": "How to setup a Middleman Blog on Github Pages with one click"
+        }, 
+        {
+            "location": "/scheduled_deploys/", 
+            "text": "How to configure your blog for hourly or daily deployment\n\n\nWe have just added a feature which allows you to trigger deploys every hour or\nevery day. This makes it super easy to have a queue of posts in Jekyll or other\nstatic site generators.\n\n\nAll you need to do to enable this is go to your site's edit page and change the\n\nRecurring deploy schedule\n to 'Every Hour' or 'Every Day'", 
+            "title": "Scheduled/Recurring/cron deploys"
+        }, 
+        {
+            "location": "/scheduled_deploys/#how-to-configure-your-blog-for-hourly-or-daily-deployment", 
+            "text": "We have just added a feature which allows you to trigger deploys every hour or\nevery day. This makes it super easy to have a queue of posts in Jekyll or other\nstatic site generators.  All you need to do to enable this is go to your site's edit page and change the Recurring deploy schedule  to 'Every Hour' or 'Every Day'", 
+            "title": "How to configure your blog for hourly or daily deployment"
+        }, 
+        {
+            "location": "/api/", 
+            "text": "Trigger your deploys using the API\n\n\nYou could do this to automatically publish your draft pages at the end of each day.\n\n\nTo setup access via the API:\n\n\n\n\nVisit the site details page and click on the \nAPI acess information\n link.\n\n\nCopy the curl code which includes your sites id, your api key and your api secret and run it on the terminal.\n\n\nRun it on your terminal\n\n\n\n\nHowever, make sure that you keep the api_key and the api_secret safe\n\n\nIf you end up exposing them, you can \nreset the api_key and api_secret from the users page\n.", 
+            "title": "API"
+        }, 
+        {
+            "location": "/api/#trigger-your-deploys-using-the-api", 
+            "text": "You could do this to automatically publish your draft pages at the end of each day.  To setup access via the API:   Visit the site details page and click on the  API acess information  link.  Copy the curl code which includes your sites id, your api key and your api secret and run it on the terminal.  Run it on your terminal   However, make sure that you keep the api_key and the api_secret safe  If you end up exposing them, you can  reset the api_key and api_secret from the users page .", 
+            "title": "Trigger your deploys using the API"
+        }
+    ]
+}
