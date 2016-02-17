@@ -47,6 +47,18 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>None/python_and_pip/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/mkdocs/</loc>
+     <lastmod>2016-02-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
