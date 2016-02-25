@@ -71,9 +71,7 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#welcome-to-zammus-documentation">Welcome to Zammu's Documentation</a></li>
-                
-                    <li><a class="toctree-l4" href="#flow-chart">Flow chart</a></li>
+                <li class="toctree-l3"><a href="#setup-your-domain">Setup your domain</a></li>
                 
             
             </ul>
@@ -166,6 +164,13 @@
     </li>
 <li>
           
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="flow/">Flow</a>
+        
+    </li>
+<li>
+          
         </ul>
       </div>
       &nbsp;
@@ -202,13 +207,33 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-zammus-documentation">Welcome to Zammu's Documentation</h1>
-<p>Zammu helps you setup Automatic and Continuous Deployment for your site very
-easily</p>
-<p>Browse the documentation from the sidebar on the left.</p>
-<p>The general flow of Zammu is depicted in the flow chart below.</p>
-<h2 id="flow-chart">Flow chart</h2>
-<p><img alt="Zammu Flow Chart" src="./images/zammu-flow.png" /></p>
+                <h1 id="setup-your-domain">Setup your domain</h1>
+<p>You can setup your website on your domain using the following 3 simple steps:</p>
+<ol>
+<li>
+<p>Create your website and set the domain in zammu to your desired domain,
+      e.g. the blog minhajuddin.com is hosted on zammu, here is a screenshot of
+      the 'edit site' page:
+      <img alt="Edit site" src="./images/domain-setup/edit-site.png" /></p>
+</li>
+<li>
+<p>This step varies based on your deployment target:</p>
+<ol>
+<li><strong>GitHub Pages Naked domain (example.com)</strong><br />
+  Go to your DNS provider's control panel and create two <strong>A</strong> records pointing to
+  <code>192.30.252.153</code> and <code>192.30.252.154</code>.
+  You can read more about it at https://help.github.com/articles/setting-up-an-apex-domain/</li>
+<li><strong>GitHub Pages or Amazon S3 CNAME (www.example.com)</strong><br />
+  Go to your DNS provider's control panel and point your <code>www</code> CNAME record
+  to your zammu subdomain, you can check the zammu subdomain in your site
+  details page, the following is a screenshot of my blog's zammu details
+  page, in my instance I could have pointed <strong>www.minhajuddin.com to
+  minhajuddin.zammu.in</strong>
+  <img alt="Zammu subdomain" src="./images/domain-setup/zammu-subdomain.png" /></li>
+</ol>
+</li>
+</ol>
+<p>That's it now your website should be up on your domain.</p>
               
             </div>
           </div>
@@ -257,6 +282,6 @@ easily</p>
 </html>
 
 <!--
-MkDocs version : 0.15.2
-Build Date UTC : 2016-02-18 18:07:37.145128
+MkDocs version : 0.15.3
+Build Date UTC : 2016-02-25 08:55:40.842535
 -->

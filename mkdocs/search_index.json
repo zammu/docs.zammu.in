@@ -2,18 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to Zammu's Documentation\n\n\nZammu helps you setup Automatic and Continuous Deployment for your site very\neasily\n\n\nBrowse the documentation from the sidebar on the left.\n\n\nThe general flow of Zammu is depicted in the flow chart below.\n\n\nFlow chart", 
+            "text": "Setup your domain\n\n\nYou can setup your website on your domain using the following 3 simple steps:\n\n\n\n\n\n\nCreate your website and set the domain in zammu to your desired domain,\n      e.g. the blog minhajuddin.com is hosted on zammu, here is a screenshot of\n      the 'edit site' page:\n      \n\n\n\n\n\n\nThis step varies based on your deployment target:\n\n\n\n\nGitHub Pages Naked domain (example.com)\n\n  Go to your DNS provider's control panel and create two \nA\n records pointing to\n  \n192.30.252.153\n and \n192.30.252.154\n.\n  You can read more about it at https://help.github.com/articles/setting-up-an-apex-domain/\n\n\nGitHub Pages or Amazon S3 CNAME (www.example.com)\n\n  Go to your DNS provider's control panel and point your \nwww\n CNAME record\n  to your zammu subdomain, you can check the zammu subdomain in your site\n  details page, the following is a screenshot of my blog's zammu details\n  page, in my instance I could have pointed \nwww.minhajuddin.com to\n  minhajuddin.zammu.in\n\n  \n\n\n\n\n\n\n\n\nThat's it now your website should be up on your domain.", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-zammus-documentation", 
-            "text": "Zammu helps you setup Automatic and Continuous Deployment for your site very\neasily  Browse the documentation from the sidebar on the left.  The general flow of Zammu is depicted in the flow chart below.", 
-            "title": "Welcome to Zammu's Documentation"
-        }, 
-        {
-            "location": "/#flow-chart", 
-            "text": "", 
-            "title": "Flow chart"
+            "location": "/#setup-your-domain", 
+            "text": "You can setup your website on your domain using the following 3 simple steps:    Create your website and set the domain in zammu to your desired domain,\n      e.g. the blog minhajuddin.com is hosted on zammu, here is a screenshot of\n      the 'edit site' page:\n          This step varies based on your deployment target:   GitHub Pages Naked domain (example.com) \n  Go to your DNS provider's control panel and create two  A  records pointing to\n   192.30.252.153  and  192.30.252.154 .\n  You can read more about it at https://help.github.com/articles/setting-up-an-apex-domain/  GitHub Pages or Amazon S3 CNAME (www.example.com) \n  Go to your DNS provider's control panel and point your  www  CNAME record\n  to your zammu subdomain, you can check the zammu subdomain in your site\n  details page, the following is a screenshot of my blog's zammu details\n  page, in my instance I could have pointed  www.minhajuddin.com to\n  minhajuddin.zammu.in \n       That's it now your website should be up on your domain.", 
+            "title": "Setup your domain"
         }, 
         {
             "location": "/hexo/", 
@@ -154,6 +149,21 @@
             "location": "/api/#trigger-your-deploys-using-the-api", 
             "text": "You could do this to automatically publish your draft pages at the end of each day.  To setup access via the API:   Visit the site details page and click on the  API acess information  link.  Copy the curl code which includes your sites id, your api key and your api secret and run it on the terminal.  Run it on your terminal   However, make sure that you keep the api_key and the api_secret safe  If you end up exposing them, you can  reset the api_key and api_secret from the users page .", 
             "title": "Trigger your deploys using the API"
+        }, 
+        {
+            "location": "/flow/", 
+            "text": "Welcome to Zammu's Documentation\n\n\nZammu helps you setup Automatic and Continuous Deployment for your site very\neasily\n\n\nBrowse the documentation from the sidebar on the left.\n\n\nThe general flow of Zammu is depicted in the flow chart below.\n\n\nFlow chart", 
+            "title": "Flow"
+        }, 
+        {
+            "location": "/flow/#welcome-to-zammus-documentation", 
+            "text": "Zammu helps you setup Automatic and Continuous Deployment for your site very\neasily  Browse the documentation from the sidebar on the left.  The general flow of Zammu is depicted in the flow chart below.", 
+            "title": "Welcome to Zammu's Documentation"
+        }, 
+        {
+            "location": "/flow/#flow-chart", 
+            "text": "", 
+            "title": "Flow chart"
         }
     ]
 }

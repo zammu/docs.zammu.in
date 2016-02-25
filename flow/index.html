@@ -8,7 +8,7 @@
   
   <meta name="author" content="Khaja Minhajuddin">
   
-  <title>MkDocs - Zammu Documentation</title>
+  <title>Flow - Zammu Documentation</title>
   
 
   <link rel="shortcut icon" href="../favicon.ico">
@@ -24,9 +24,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "MkDocs";
-    var mkdocs_page_input_path = "mkdocs.md";
-    var mkdocs_page_url = "/mkdocs/";
+    var mkdocs_page_name = "Flow";
+    var mkdocs_page_input_path = "flow.md";
+    var mkdocs_page_url = "/flow/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -127,15 +127,8 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">MkDocs</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#mkdocs">MkDocs</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../mkdocs/">MkDocs</a>
         
     </li>
 
@@ -165,8 +158,17 @@
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../flow/">Flow</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Flow</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#welcome-to-zammus-documentation">Welcome to Zammu's Documentation</a></li>
+                
+                    <li><a class="toctree-l4" href="#flow-chart">Flow chart</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
@@ -192,12 +194,8 @@
     <li><a href="..">Docs</a> &raquo;</li>
     
       
-        
-          <li>How to Setup &raquo;</li>
-        
-      
     
-    <li>MkDocs</li>
+    <li>Flow</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -211,17 +209,13 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="mkdocs">MkDocs</h1>
-<p>We'll setup the awesome <a href="http://www.mkdocs.org">MkDocs</a> documentation generator to Continuously Build and Deploy your documentation in this article.</p>
-<ol>
-<li>Go to the <em>New Site</em> page and select <strong>Python and Pip</strong> as the generator.</li>
-<li>On the second page, fill out the necessary details. Fill <code>mkdocs build</code> for the build command and <code>site</code> for the output directory</li>
-<li>Make sure your git repository has a <code>requirements.txt</code> file with the following contents<br />
-<code>mkdocs&gt;=0.15.2</code></li>
-</ol>
-<p>That's it you are all set for Continuous Delivery of your documentation site. The icing on the cake is that <strong>others can now contribute to your documentation via GitHub</strong>.
-e.g. You can try out contributions by creating a pull request on this very documentation site (Yes, it is built using MkDocs :) ). Just click on the 'Edit on GitHub' button in the top right corner.</p>
-<p>Update: One of the authors of MkDocs (<a href="https://github.com/d0ugal">Dougal</a>) created the <a href="https://github.com/zammu/docs.zammu.in/pull/1">first pull request</a> for this website :) How cool is that!</p>
+                <h1 id="welcome-to-zammus-documentation">Welcome to Zammu's Documentation</h1>
+<p>Zammu helps you setup Automatic and Continuous Deployment for your site very
+easily</p>
+<p>Browse the documentation from the sidebar on the left.</p>
+<p>The general flow of Zammu is depicted in the flow chart below.</p>
+<h2 id="flow-chart">Flow chart</h2>
+<p><img alt="Zammu Flow Chart" src="../images/zammu-flow.png" /></p>
               
             </div>
           </div>
@@ -229,10 +223,8 @@ e.g. You can try out contributions by creating a pull request on this very docum
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../themes/" class="btn btn-neutral float-right" title="Themes">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../python_and_pip/" class="btn btn-neutral" title="Python and Pip"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../api/" class="btn btn-neutral" title="API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -262,10 +254,8 @@ e.g. You can try out contributions by creating a pull request on this very docum
           <a href="https://github.com/zammu/docs.zammu.in/" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../python_and_pip/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../api/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../themes/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
