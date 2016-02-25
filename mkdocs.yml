@@ -6,7 +6,7 @@ site_description: Home of Zammu's Documentation, the continuous delivery platfor
 site_author: Khaja Minhajuddin
 site_favicon: favicon.ico
 google_analytics: ['UA-72393916-1', 'docs.zammu.in']
-copyright: '&copy; 2015-2016 https://zammu.in/ Cosmicvent Software Pvt Ltd'
+copyright: '&copy; 2015-2016 <a href="https://zammu.in/">https://zammu.in/</a> Cosmicvent Software Pvt Ltd'
 pages:
 - Home: 'index.md'
 - How to Setup:
