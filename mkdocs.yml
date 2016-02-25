@@ -9,6 +9,7 @@ google_analytics: ['UA-72393916-1', 'docs.zammu.in']
 copyright: '&copy; 2015-2016 https://zammu.in/ Cosmicvent Software Pvt Ltd'
 pages:
 - Home: 'index.md'
+- 'Setup your website to use your domain': 'domain_setup.md'
 - How to Setup:
   - Hexo: 'hexo.md'
   - Hugo: 'hugo.md'
