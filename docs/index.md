@@ -1,6 +1,6 @@
 # Setup your domain
 
-You can setup your website on your domain using the following 3 simple steps:
+You can setup your website on your domain using the following 2 simple steps:
 
   1. Create your website and set the domain in zammu to your desired domain,
       e.g. the blog minhajuddin.com is hosted on zammu, here is a screenshot of
