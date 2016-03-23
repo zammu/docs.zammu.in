@@ -8,7 +8,7 @@
   
   <meta name="author" content="Khaja Minhajuddin">
   
-  <title>Hugo - Zammu Documentation</title>
+  <title>Repository not Found Error - Zammu Documentation</title>
   
 
   <link rel="shortcut icon" href="../favicon.ico">
@@ -24,9 +24,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Hugo";
-    var mkdocs_page_input_path = "hugo.md";
-    var mkdocs_page_url = "/hugo/";
+    var mkdocs_page_name = "Repository not Found Error";
+    var mkdocs_page_input_path = "repo_not_found.md";
+    var mkdocs_page_url = "/repo_not_found/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -85,17 +85,8 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Hugo</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#how-to-deploy-a-hugo-site-on-github-using-zammu">How to Deploy a Hugo Site on Github using Zammu</a></li>
-                
-                    <li><a class="toctree-l4" href="#here-is-a-script-which-can-be-used-to-setup-your-repository">Here is a script which can be used to setup your repository</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../hugo/">Hugo</a>
         
     </li>
 
@@ -174,8 +165,23 @@
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../repo_not_found/">Repository not Found Error</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Repository not Found Error</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#repository-not-found-error">Repository not found Error</a></li>
+                
+                    <li><a class="toctree-l4" href="#1-go-to-the-identities-page-and-click-on-revoke-my-github-access-button">1. Go to the identities page and click on 'Revoke my Github access' button</a></li>
+                
+                    <li><a class="toctree-l4" href="#2-go-to-back-to-the-identities-page-and-click-on-authorize-private-repositories-button">2. Go to back to the identities page and click on 'Authorize Private Repositories' button</a></li>
+                
+                    <li><a class="toctree-l4" href="#3-in-github-authorize-the-access">3. In GitHub authorize the access</a></li>
+                
+                    <li><a class="toctree-l4" href="#4-thats-it-now-you-should-be-able-to-add-private-repositories">4. That's it, now you should be able to add private repositories</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
@@ -201,12 +207,8 @@
     <li><a href="..">Docs</a> &raquo;</li>
     
       
-        
-          <li>How to Setup &raquo;</li>
-        
-      
     
-    <li>Hugo</li>
+    <li>Repository not Found Error</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -220,57 +222,19 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="how-to-deploy-a-hugo-site-on-github-using-zammu">How to Deploy a Hugo Site on Github using Zammu</h1>
-<p>You can now setup your zammu sites to build using the <a href="">Hugo</a> static site generator.</p>
-<p><a href="https://gohugo.io/">Hugo</a> is a really fast static site generator. However, it is not
-very accessible. In this short post I'll show you how to get your Hugo website
-built on Github automatically for each git push.</p>
-<ol>
-<li>Sign up for <a href="https://zammu.in/">https://zammu.in/</a>.</li>
-<li>Create a new site using the "Hugo" generator and enter the
-     github url of your hugo website e.g. <em>zammu/hugo.zammu.in</em> with the other
-     details.</li>
-<li>That's it. Now you whenever you push to your github repository, your website
-    built using Hugo will be published to the subdomain.zammu.in</li>
-</ol>
-<hr />
-<h3 id="here-is-a-script-which-can-be-used-to-setup-your-repository">Here is a script which can be used to setup your repository</h3>
-<pre><code class="bash"># init the new site
-hugo new site awesome-hugo-blog
-
-# init the repo
-cd awesome-hugo-blog
-git init
-git commit -m 'init'
-
-# setup the theme
-git submodule add https://github.com/htdvisser/hugo-base16-theme themes/base16
-# it is VERY important that you add it as a submodule and not just clone it
-
-# commit the theme
-git commit -m 'added theme'
-
-# update the config
-vim config.toml
-title = &quot;My very awesome blog&quot;
-theme = &quot;base16&quot;
-:exit
-
-git commit -m 'updated config'
-
-# now we need to go to github and create our repository and then
-git remote add origin git@github.com:minhajuddin/awesome-hugo-blog
-git push origin master -u
-
-# now we need to go to https://zammu.in/ and create a new site with the following  info
-# Generator = Hugo
-# Title = My awesome Blog
-# Domain =
-# Subdomain = awesomehugo
-# Github URL = minhajuddin/awesome-hugo-blog
-
-echo &quot;That's it we are done&quot;
-</code></pre>
+                <h1 id="repository-not-found-error">Repository not found Error</h1>
+<p>If you get a repository is not found error while trying to add a new site, it
+may be because you are trying to add a private GitHub repository. By default we
+only get access to your public repositories on GitHub. If you'd like to add a
+private repository follow these steps:</p>
+<h3 id="1-go-to-the-identities-page-and-click-on-revoke-my-github-access-button">1. Go to the identities page and click on 'Revoke my Github access' button</h3>
+<p><img alt="Revoke my GitHub access" src="../images/identities/identities-01.png" /></p>
+<h3 id="2-go-to-back-to-the-identities-page-and-click-on-authorize-private-repositories-button">2. Go to back to the identities page and click on 'Authorize Private Repositories' button</h3>
+<p><img alt="Authorize Private Repositories" src="../images/identities/identities-02.png" /></p>
+<h3 id="3-in-github-authorize-the-access">3. In GitHub authorize the access</h3>
+<p><img alt="Authorize in GitHub" src="../images/identities/identities-03.png" /></p>
+<h3 id="4-thats-it-now-you-should-be-able-to-add-private-repositories">4. That's it, now you should be able to add private repositories</h3>
+<p><img alt="Success message" src="../images/identities/identities-04.png" /></p>
               
             </div>
           </div>
@@ -278,10 +242,8 @@ echo &quot;That's it we are done&quot;
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../middleman/" class="btn btn-neutral float-right" title="Middleman">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../hexo/" class="btn btn-neutral" title="Hexo"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../flow/" class="btn btn-neutral" title="Flow"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -311,10 +273,8 @@ echo &quot;That's it we are done&quot;
           <a href="https://github.com/zammu/docs.zammu.in/" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../hexo/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../flow/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../middleman/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

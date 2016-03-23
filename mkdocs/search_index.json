@@ -164,6 +164,36 @@
             "location": "/flow/#flow-chart", 
             "text": "", 
             "title": "Flow chart"
+        }, 
+        {
+            "location": "/repo_not_found/", 
+            "text": "Repository not found Error\n\n\nIf you get a repository is not found error while trying to add a new site, it\nmay be because you are trying to add a private GitHub repository. By default we\nonly get access to your public repositories on GitHub. If you'd like to add a\nprivate repository follow these steps:\n\n\n1. Go to the identities page and click on 'Revoke my Github access' button\n\n\n\n\n2. Go to back to the identities page and click on 'Authorize Private Repositories' button\n\n\n\n\n3. In GitHub authorize the access\n\n\n\n\n4. That's it, now you should be able to add private repositories", 
+            "title": "Repository not Found Error"
+        }, 
+        {
+            "location": "/repo_not_found/#repository-not-found-error", 
+            "text": "If you get a repository is not found error while trying to add a new site, it\nmay be because you are trying to add a private GitHub repository. By default we\nonly get access to your public repositories on GitHub. If you'd like to add a\nprivate repository follow these steps:", 
+            "title": "Repository not found Error"
+        }, 
+        {
+            "location": "/repo_not_found/#1-go-to-the-identities-page-and-click-on-revoke-my-github-access-button", 
+            "text": "", 
+            "title": "1. Go to the identities page and click on 'Revoke my Github access' button"
+        }, 
+        {
+            "location": "/repo_not_found/#2-go-to-back-to-the-identities-page-and-click-on-authorize-private-repositories-button", 
+            "text": "", 
+            "title": "2. Go to back to the identities page and click on 'Authorize Private Repositories' button"
+        }, 
+        {
+            "location": "/repo_not_found/#3-in-github-authorize-the-access", 
+            "text": "", 
+            "title": "3. In GitHub authorize the access"
+        }, 
+        {
+            "location": "/repo_not_found/#4-thats-it-now-you-should-be-able-to-add-private-repositories", 
+            "text": "", 
+            "title": "4. That's it, now you should be able to add private repositories"
         }
     ]
 }
